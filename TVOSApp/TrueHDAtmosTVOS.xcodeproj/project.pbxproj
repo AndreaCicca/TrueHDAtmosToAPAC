@@ -11,13 +11,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		000000000000000000000120 /* Progetto TVOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Progetto TVOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		000000000000000000000120 /* TrueHDAtmosTVOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrueHDAtmosTVOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		000000000000000000000010 /* Progetto TVOS */ = {
+		000000000000000000000010 /* Sources */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Progetto TVOS";
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -35,7 +35,7 @@
 		000000000000000000000001 = {
 			isa = PBXGroup;
 			children = (
-				000000000000000000000010 /* Progetto TVOS */,
+				000000000000000000000010 /* Sources */,
 				000000000000000000000020 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,7 +43,7 @@
 		000000000000000000000020 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				000000000000000000000120 /* Progetto TVOS.app */,
+				000000000000000000000120 /* TrueHDAtmosTVOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,9 +51,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		000000000000000100000000 /* Progetto TVOS */ = {
+		000000000000000100000000 /* TrueHDAtmosTVOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 000000000000000110000000 /* Build configuration list for PBXNativeTarget "Progetto TVOS" */;
+			buildConfigurationList = 000000000000000110000000 /* Build configuration list for PBXNativeTarget "TrueHDAtmosTVOS" */;
 			buildPhases = (
 				000000000000000120000000 /* Sources */,
 				000000000000000130000000 /* Frameworks */,
@@ -62,14 +62,14 @@
 			buildRules = (
 			);
 			fileSystemSynchronizedGroups = (
-				000000000000000000000010 /* Progetto TVOS */,
+				000000000000000000000010 /* Sources */,
 			);
-			name = "Progetto TVOS";
+			name = TrueHDAtmosTVOS;
 			packageProductDependencies = (
 				000000000000000000000201 /* TrueHDAtmosToAPAC */,
 			);
-			productName = MyApp;
-			productReference = 000000000000000000000120 /* Progetto TVOS.app */;
+			productName = TrueHDAtmosTVOS;
+			productReference = 000000000000000000000120 /* TrueHDAtmosTVOS.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -87,7 +87,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 000000000000000010000000 /* Build configuration list for PBXProject "Progetto TVOS" */;
+			buildConfigurationList = 000000000000000010000000 /* Build configuration list for PBXProject "TrueHDAtmosTVOS" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -104,7 +104,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				000000000000000100000000 /* Progetto TVOS */,
+				000000000000000100000000 /* TrueHDAtmosTVOS */,
 			);
 		};
 /* End PBXProject section */
