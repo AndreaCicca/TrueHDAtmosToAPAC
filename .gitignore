@@ -1,0 +1,31 @@
+# Xcode & Swift Package Manager
+.DS_Store
+/.build
+/build
+/DerivedData
+/.swiftpm
+/.vscode
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+xcuserdata/
+Package.resolved
+
+# Build & Debug artifacts
+*.o
+*.dSYM.zip
+*.dSYM
+*.ipa
+*.app
+
+# Audio / Media test files
+*.caf
+*.thd
+*.mlp
+*.mkv
+*.eac3
+*.ac3
+*.wav
+*.atmos
+*.atmos.audio
+*.atmos.metadata

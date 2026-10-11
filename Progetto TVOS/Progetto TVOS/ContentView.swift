@@ -1,17 +1,12 @@
 import SwiftUI
-import Playgrounds
+import TrueHDAtmosToAPAC
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        AtmosTestDashboardView()
     }
 }
 
 #Preview {
     ContentView()
-}
-
-#Playground {
-    _ = 1 + 2
 }
